@@ -17,4 +17,8 @@ void loop()
 if (digitalRead(A0) == HIGH) {
 tone(8, 440, 100); // play tone 57 (A4 = 440 Hz)
 }
+// if button press on A1 is detected
+if (digitalRead(A1) == HIGH) {
+tone(8, 494, 100); // play tone 59 (B4 = 494 Hz)
+}
 }
