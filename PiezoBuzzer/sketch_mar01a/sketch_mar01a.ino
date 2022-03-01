@@ -21,4 +21,10 @@ tone(8, 440, 100); // play tone 57 (A4 = 440 Hz)
 if (digitalRead(A1) == HIGH) {
 tone(8, 494, 100); // play tone 59 (B4 = 494 Hz)
 }
+// if button press on A0 is detected
+if (digitalRead(A2) == HIGH) {
+tone(8, 523, 100); // play tone 60 (C5 = 523 Hz)
+}
+delay(10); // Delay a little bit to improve simulation performance
+}
 }
