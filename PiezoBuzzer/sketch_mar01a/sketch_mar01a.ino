@@ -27,4 +27,3 @@ tone(8, 523, 100); // play tone 60 (C5 = 523 Hz)
 }
 delay(10); // Delay a little bit to improve simulation performance
 }
-}
